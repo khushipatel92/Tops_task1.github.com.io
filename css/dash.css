@@ -1,0 +1,266 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body
+{
+    width:100%;
+    height:auto;
+    overflow-x: hidden;
+}
+#main-content 
+{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: none;
+}
+
+#loader
+{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 14%;
+    left: 40%;
+    right: 0;
+    background: url('../images/loder.gif') no-repeat;
+    background-size: 350px 350px;
+
+}
+/*css for header*/
+
+.header
+{
+    width: 100%;
+    height: 75px;
+    margin: 0;
+    padding: 0;
+    background-color:#eef5ff;
+
+
+}
+.header a
+{
+    width: 40%;
+    height: auto;
+    margin-left: 3%;
+    float: left;
+}
+.logo
+{   
+    width: 280px;
+    margin-top: 2%;
+    
+    float: left;
+    
+}
+.header span
+{   
+    
+    margin-left: 55%;
+    font-size: 28px;
+    
+}
+
+.profile
+{
+    
+    height: auto;
+    background-color: #eef5ff;
+    box-shadow: 1px 2px 1px 2px rgb(186, 186, 228);
+    border: none;
+    margin-left: 38%;
+    margin-top: 1%;
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+    
+}
+
+  
+.dropdown li
+{
+    list-style-type: none;
+    font-size: 17px;
+    /* width: 200px; */
+    margin-top: 4%;
+    padding: 5px;
+    display: none;
+    cursor: pointer;
+}
+
+.dropdown li a:hover
+{   
+    display: block;
+    background-color: lightgrey;
+    border-radius: 2%;
+}
+li a 
+{
+    
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 55px;
+    
+}
+.show
+{
+    display:block;
+}
+#ring
+{
+    position: absolute;
+    margin-top: 1.5%;
+    margin-left: 35%;
+    font-size: 30px;
+    color: rgb(188, 188, 191);
+  
+}
+ /* css for navbar*/
+
+.navbar
+{
+    width: 20%;
+    height: 510px;
+    margin-top: -1%;
+    float: left;
+    background-color:  #eef5ff;
+}
+.navbar li
+{
+    width: 100%;
+    list-style-type: none;
+    font-size: 18px;
+    margin-left: 4%;
+    padding: 12px;
+    overflow-y: hidden;
+    background-color:  #eef5ff;
+}
+.navbar li a
+{ 
+    margin-left: 4%;
+    padding: 5px;
+  color: black;
+}
+.navbar li a:hover
+{   padding: 5px;
+    border-radius: 3px;
+    display: block;
+    background-color: lightgrey;
+}
+/* css for dashboard main content */
+.dash_main
+{
+    width: 55%;
+    height: 450px;
+    background: url("../images/dash-img.png") no-repeat;
+    background-size: cover; 
+    margin-left: 3.5%;
+    margin-top: 13px;
+    float: left;
+    position: relative;
+}
+.dash_main h3
+{
+    position: absolute;
+    top:10%;
+    left:10%;
+    font-size: 20px;
+    background-color: #f5800a;
+    padding: 10px;
+    color: white;
+}
+.dash_main h1
+{
+    position: absolute;
+    top:25%;
+    left:10%;
+    font-size: 35px;
+    width: 40%; 
+    color:  #555aa2;
+}
+.dash_main p
+{
+    position: absolute;
+    top:50%;
+    left:10%;
+    width: 40%;
+    font-size: 22px;
+}
+.btn
+{
+    position: absolute;
+    top:80%;
+    left:10%;
+    padding: 5px;
+    color:  #3a45df;
+    font-size: 20px;
+}
+
+/* css for right side content */
+form
+{
+    width: 20%;
+    float: left;
+    padding: 35px;
+    margin-top: 13px;
+    margin-left: 15px;
+    border-radius: 5px;
+    background-color: #eef5ff;
+    box-sizing: border-box;
+    border: 2px solid #4c92be;
+}
+
+.reminder hr
+{
+    margin-left :0;
+    padding: 0;
+    color: #4c92be;
+}
+
+
+.reminder li
+{
+    list-style-type: none;
+}
+.reminder span 
+{
+    font-size: 30px;
+    list-style-type: none;
+    text-decoration: none;
+}
+.reminder h5
+{
+    margin-left: 50px;
+    margin-top: -25px;
+}
+.reminder p
+{
+    margin-left: 50px;
+}
+.reminder h6
+{
+    width: 100%;
+    margin-top: -28px;
+    margin-left: 22px;
+    font-size: 18px;
+}
+#bell
+{
+    margin-left: -20px;
+    color: #eded05;
+}
+.reminder h4
+{
+    margin-left: 189px;
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 50%;
+    margin-top: -20px;
+    color: white;
+    background-color: rgb(246, 23, 23);
+}

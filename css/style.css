@@ -1,0 +1,92 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body
+{
+    width:100%;
+    height:auto;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+#header
+{
+    width: 100%;
+    height: 75px;
+    margin: 0;
+    padding: 0;
+    background-color:#eef5ff;
+}
+.header1 a
+{
+    width: 40%;
+    height: auto;
+    margin-left: 3%;
+    padding: 10px;
+}
+.logo
+{
+    width: 300px;
+    margin-top: 1%;
+}
+.login
+{
+    width: 100%;
+    height: 620px;
+    
+    background: url("../images/login-bg.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+form
+{
+    width: 20%;
+    height: auto;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 5%;
+    
+    padding: 40px;
+    border : 2px solid #4C92BE;
+    border-radius: 15px;
+    background-color: #eef5ff;
+    box-shadow: 2px 2px 2px 2px lightgray;
+    
+}
+input[type="text"]
+
+ {  margin-top: 2%;
+    margin-left: 2%;
+    padding: 5px 10px;
+    font-size: 20px; 
+    border: 1px solid seagreen;
+    border-radius: 5px; 
+    background-color: rgb(252, 236, 204); 
+} 
+
+button[type="button"]
+ { 
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 25%;
+    background-color: blue;
+    background-image: linear-gradient(to right,#4C92BE,blue );
+
+    color: white;
+    padding: 10px 30px; 
+    font-size: 15px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+
+} 
+.btn:hover
+{
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15),0 1px 1px rgba(0, 0, 0, 0.075);
+}
